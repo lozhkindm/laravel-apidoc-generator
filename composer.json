@@ -17,7 +17,6 @@
     "require": {
         "php": ">=7.2.0|^8.0",
         "ext-json": "*",
-        "dingo/api": "^3.0",
         "fakerphp/faker": "^1.8",
         "illuminate/console": "^8.0",
         "illuminate/routing": "^8.0",
