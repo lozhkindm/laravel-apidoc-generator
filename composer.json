@@ -15,13 +15,14 @@
         }
     ],
     "require": {
-        "php": ">=7.2.0",
+        "php": ">=7.2.0|^8.0",
         "ext-json": "*",
-        "fzaninotto/faker": "^1.8",
+        "dingo/api": "^3.0",
+        "fakerphp/faker": "^1.8",
         "illuminate/console": "^8.0",
         "illuminate/routing": "^8.0",
         "illuminate/support": "^8.0",
-        "league/flysystem": "^1.0",
+        "league/flysystem": "^1.0|^2.0",
         "lozhkindm/documentarian": "^0.4.0",
         "mpociot/reflection-docblock": "^1.0.1",
         "nunomaduro/collision": "^5.0",
@@ -29,12 +30,13 @@
         "symfony/var-exporter": "^4.0|^5.0"
     },
     "require-dev": {
-        "dms/phpunit-arraysubset-asserts": "^0.1.0",
+        "dms/phpunit-arraysubset-asserts": "^0.2",
         "laravel/lumen-framework": "^5.7|^6.0|^7.0|^8.0",
         "league/fractal": "^0.19.0",
-        "orchestra/testbench": "^3.7|^4.0|^5.0",
-        "phpstan/phpstan": "^0.11.15",
-        "phpunit/phpunit": "^8.0"
+        "laravel/legacy-factories": "^1.0",
+        "orchestra/testbench": "^3.7|^4.0|^5.0|^6.0",
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpunit": "^8.0|^9.0"
     },
     "suggest": {
         "league/fractal": "Required for transformers support"

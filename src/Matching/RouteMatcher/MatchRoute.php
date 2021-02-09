@@ -4,7 +4,7 @@ namespace Mpociot\ApiDoc\Matching\RouteMatcher;
 
 use Illuminate\Routing\Route;
 
-class Match implements \ArrayAccess
+class MatchRoute implements \ArrayAccess
 {
     /**
      * @var Route
